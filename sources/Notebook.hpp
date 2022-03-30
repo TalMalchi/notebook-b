@@ -20,11 +20,7 @@ namespace ariel{
         private: 
          //<pageNumber<row, data>>
             unordered_map < int,map< int, data>> notebook; 
-            // unsigned int min_col= 0;
-            // unsigned int min_row=0;
-            // unsigned int max_row= INT8_MAX;
-            //unsigned int max_col= 100; 
-          
+            
           public:
 
             Notebook(){} //constructor 
